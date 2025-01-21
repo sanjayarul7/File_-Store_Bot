@@ -1,0 +1,56 @@
+services:
+  - name: your-bot-name  # Replace with your bot's name
+    type: web # Use web service for background process
+    plan: free 
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py # Or python3 main.py
+    autoDeploy: true # Automatically deploy on git push
+    envVars: # Environment variables
+      - key: API_ID
+        value: 22928570  # Replace with your actual API ID
+      - key: API_HASH
+        value: 60bb37bddecb48c27c3e86906a077603  # Replace with your actual API Hash
+      - key: BOT_TOKEN
+        value: 7728166494:AAFajpFTRamQeOCptYkWeABZMrRK-XcsF8g  # Replace with your actual bot token
+      - key: OWNER_ID
+        value: 2010016480  # Replace with your Telegram user ID
+      - key: DB_URL
+        value: mongodb+srv://tesiy55615:Pu665vR3jGfdREZ9@cluster0.1qa8z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0  # Replace with your actual MongoDB connection string
+      - key: DB_NAME
+        value: Cluster0  # Replace with your actual database name
+      - key: CHANNEL_ID
+        value: -1002446423158  # Replace with your Telegram channel ID (negative for private channels)
+      - key: FORCE_SUB_CHANNEL  # Replace with force-subscribe channels (optional)
+        value: -1002318186916  # (optional)
+      - key: FORCE_SUB_CHANNEL2  # Replace with force-subscribe channels (optional)
+        value: -1002389548819  # (optional)
+      - key: FORCE_SUB_CHANNEL3  # Replace with force-subscribe channels (optional)
+        value: -1002354273942  # (optional)
+      - key: FORCE_SUB_CHANNEL4  # Replace with force-subscribe channels (optional)
+        value: -1002309726839  # (optional)
+      - key: FILE_AUTO_DELETE  # Optional, default is 1800 seconds
+        value: 1800  # (optional)
+      - key: PORT  # Optional, default is 8080
+        value: 8080  # (optional)
+      - key: TG_BOT_WORKERS  # Optional, default is 4
+        value: 4  # (optional)
+      - key: ADMINS  # Comma-separated Telegram user IDs (optional)
+        value: 2010016480  # (optional)
+      - key: CUSTOM_CAPTION  # Optional custom caption for forwarded messages
+        value: None  # (optional)
+      - key: PROTECT_CONTENT  # Optional, defaults to True
+        value: True  # (True or False)  # (optional)
+      - key: DISABLE_CHANNEL_BUTTON  # Optional, defaults to False
+        value: False  # (True or False)  # (optional)
+      - key: BOT_STATS_TEXT  # Optional bot uptime message format
+        value: "<b>BOT UPTIME :</b>\n{uptime}"  # (optional)
+      - key: USER_REPLY_TEXT  # Optional reply text for direct messages
+        value: "<b>❌Don't Send Me Messages Directly I'm Only File Share Bot !</b>"  # (optional)
+      - key: START_PIC  # Optional start message image URL
+        value: "http://ibb.co/9Wh68gK"  # (optional)
+      - key: START_MESSAGE  # Optional start message text
+        value: "<b>Hello {mention}\n\nI Can Store Private Files In Specified Channel And Other Users Can Access It From Special Link.</b>"  # (optional)
+      - key: FORCE_SUB_MESSAGE  # Optional force subscribe message text
+        value: "<b>Hello {mention}\n\nYou Need To Join In My Channel/Group To Use Me\n\nKindly Please Join Channel</b>"  # (optional)
+      

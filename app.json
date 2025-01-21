@@ -3,7 +3,7 @@
   "description": "Telegram File Sharing Premium Bot Bot ",
   "logo": "https://graph.org/file/2f461540c83b362772714.jpg",
   "keywords": ["File Sharing Premium Bot", "Mongo DB"],    
-  "repository": "https://github.com/JishuDeveloper/File-Sharing-Bot",
+  "repository": "https://github.com/JishuDeveloper/File-Sharing-Premium-Bot",
   "success_url": "https://t.me/Madflix_Bots",
   "env": {
       "API_ID": {
@@ -36,6 +36,21 @@
         "value": "0",
         "required": false
       },
+      "FORCE_SUB_CHANNEL2": {
+        "description": "id of the channel or group, if you want enable force sub feature else put 0",
+        "value": "0",
+        "required": false
+      },
+      "FORCE_SUB_CHANNEL3": {
+        "description": "id of the channel or group, if you want enable force sub feature else put 0",
+        "value": "0",
+        "required": false
+      },
+      "FORCE_SUB_CHANNEL4": {
+        "description": "id of the channel or group, if you want enable force sub feature else put 0",
+        "value": "0",
+        "required": false
+      },
       "DB_URL": {
           "description": "Your Mongo DB Database URL",
           "value": "",
@@ -44,6 +59,11 @@
       "DB_NAME":{ 
           "description":"Your Mongo DB Database Name",
           "value": "madflixbotz",
+          "required": false
+      },
+      "START_PIC": {
+          "description": "Optional: start pic of bot, use HTML parsemode format",
+          "value": "",
           "required": false
       },
       "START_MESSAGE": {
