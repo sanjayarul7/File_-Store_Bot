@@ -12,23 +12,23 @@ services:
       - key: API_HASH
         value: 60bb37bddecb48c27c3e86906a077603  # Replace with your actual API Hash
       - key: BOT_TOKEN
-        value: 7728166494:AAFajpFTRamQeOCptYkWeABZMrRK-XcsF8g  # Replace with your actual bot token
+        value: 7937004859:AAGBZhvB4vqpeGkISdz3pVFi8x3I_HsaWUY  # Replace with your actual bot token
       - key: OWNER_ID
         value: 2010016480  # Replace with your Telegram user ID
       - key: DB_URL
-        value: mongodb+srv://tesiy55615:Pu665vR3jGfdREZ9@cluster0.1qa8z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0  # Replace with your actual MongoDB connection string
+        value: mongodb+srv://tobi:tobi@2025@cluster0.b5ti6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0  # Replace with your actual MongoDB connection string
       - key: DB_NAME
         value: Cluster0  # Replace with your actual database name
       - key: CHANNEL_ID
-        value: -1002446423158  # Replace with your Telegram channel ID (negative for private channels)
+        value: -1002351572424  # Replace with your Telegram channel ID (negative for private channels)
       - key: FORCE_SUB_CHANNEL  # Replace with force-subscribe channels (optional)
-        value: -1002318186916  # (optional)
+        value: -1002306536582  # (optional)
       - key: FORCE_SUB_CHANNEL2  # Replace with force-subscribe channels (optional)
-        value: -1002389548819  # (optional)
+        value: -1002480987242  # (optional)
       - key: FORCE_SUB_CHANNEL3  # Replace with force-subscribe channels (optional)
-        value: -1002354273942  # (optional)
+        value: -1002434391439  # (optional)
       - key: FORCE_SUB_CHANNEL4  # Replace with force-subscribe channels (optional)
-        value: -1002309726839  # (optional)
+        value: -1002235448325  # (optional)
       - key: FILE_AUTO_DELETE  # Optional, default is 1800 seconds
         value: 1800  # (optional)
       - key: PORT  # Optional, default is 8080
