@@ -48,7 +48,7 @@ services:
       - key: USER_REPLY_TEXT  # Optional reply text for direct messages
         value: "<b>❌Don't Send Me Messages Directly I'm Only File Share Bot !</b>"  # (optional)
       - key: START_PIC  # Optional start message image URL
-        value: "http://ibb.co/9Wh68gK"  # (optional)
+        value: "http://ibb.co/Cn44ZDC"  # (optional)
       - key: START_MESSAGE  # Optional start message text
         value: "<b>Hello {mention}\n\nI Can Store Private Files In Specified Channel And Other Users Can Access It From Special Link.</b>"  # (optional)
       - key: FORCE_SUB_MESSAGE  # Optional force subscribe message text
