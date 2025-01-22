@@ -16,7 +16,7 @@ services:
       - key: OWNER_ID
         value: 2010016480  # Replace with your Telegram user ID
       - key: DB_URL
-        value: mongodb+srv://tobi:tobi@2025@cluster0.b5ti6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0  # Replace with your actual MongoDB connection string
+        value: mongodb+srv://file-store-db:FileStore@db007@cluster0.3itme.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0  # Replace with your actual MongoDB connection string
       - key: DB_NAME
         value: Cluster0  # Replace with your actual database name
       - key: CHANNEL_ID
