@@ -61,7 +61,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 USER_REPLY_TEXT = "<b>❌Don't Send Me Messages Directly I'm Only File Share Bot !</b>"
 
-START_PIC = os.environ.get("START_PIC","http://ibb.co/Cn44ZDC")
+START_PIC = os.environ.get("START_PIC","http://postimg.cc/zVr7WdKR")
 
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {mention}\n\nI Can Store Private Files In Specified Channel And Other Users Can Access It From Special Link.</b>")
 
