@@ -5,21 +5,21 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7937004859:AAGBZhvB4vqpeGkISdz3pVFi8x3I_HsaWUY")
-API_ID = int(os.environ.get("API_ID", "22928570"))
-API_HASH = os.environ.get("API_HASH", "60bb37bddecb48c27c3e86906a077603")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = int(os.environ.get("API_ID", ""))
+API_HASH = os.environ.get("API_HASH", "")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "2010016480"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://file-store-db:FileStore@db007@cluster0.3itme.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DB_NAME", "Cluster0")
+OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+DB_URL = os.environ.get("DB_URL", "")
+DB_NAME = os.environ.get("DB_NAME", "")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002351572424"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002306536582"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002480987242"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002434391439"))
-FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002235448325"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "")) # log & DataBase
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", ""))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", ""))
+FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", ""))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "1800")) # auto delete in seconds
@@ -29,7 +29,7 @@ PORT = os.environ.get("PORT", "8080")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
-ADMINS = [int(x) for x in os.environ.get("ADMINS", "2010016480").split(",")]
+ADMINS = [int(x) for x in os.environ.get("ADMINS", "Your Id Here").split(",")]
 """try:
     ADMINS=[6848088376]
     for x in (os.environ.get("ADMINS", "6848088376").split()):
@@ -45,7 +45,7 @@ except ValueError:
 
 
 
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>@Adults_Arc</b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 
@@ -61,7 +61,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 USER_REPLY_TEXT = "<b>❌Don't Send Me Messages Directly I'm Only File Share Bot !</b>"
 
-START_PIC = os.environ.get("START_PIC","http://postimg.cc/zVr7WdKR")
+START_PIC = os.environ.get("START_PIC"," ")
 
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {mention}\n\nI Can Store Private Files In Specified Channel And Other Users Can Access It From Special Link.</b>")
 
@@ -97,11 +97,3 @@ def LOGGER(name: str) -> logging.Logger:
    
 
 
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
