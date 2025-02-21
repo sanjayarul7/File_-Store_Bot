@@ -115,15 +115,11 @@
 - [SS_Tech](https://t.me/SS_Contact_Bot)
 
 ### ❤️ DISCUSSION GROUP ❤️
-- [SS_Tech_Group](https://github.com/JishuDeveloper](https://t.me/SS_Tech_Group)
+- [SS_Tech_Group](https://t.me/SS_Tech_Group)
+
 
   
-
-### ☕ BUY ME A COFFEE ☕
-- [PayPal](https://paypal.me/jishudeveloper/2.50USD)
-- [PhonePe](https://graph.org/file/6822df5af3a2e80637172.jpg)
-- [UPI](https://graph.org/file/b831109be4acff5c966d2.jpg)
-
 ### SOURCE
 - [JishuDeveloper](https://github.com/JishuDeveloper)
+
 
